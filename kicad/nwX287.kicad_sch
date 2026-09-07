@@ -1442,7 +1442,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 121.92 41.91 180)
+		(at 92.71 40.64 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1451,7 +1451,7 @@
 		)
 		(uuid "42bf0453-3bb8-4721-ae77-02821cf7153f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 121.92 41.91 0)
+			(at 92.71 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1486,7 +1486,7 @@
 	)
 	(global_label "X1"
 		(shape input)
-		(at 127 45.72 270)
+		(at 97.79 44.45 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1495,7 +1495,7 @@
 		)
 		(uuid "4aa816bc-e21d-4065-87bf-673024ae21c9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127 45.72 0)
+			(at 97.79 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1750,7 +1750,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 161.29 45.72 270)
+		(at 135.89 44.45 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1759,7 +1759,7 @@
 		)
 		(uuid "a8f6e583-be6c-4818-b0dd-27cce0d82825")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.29 45.72 0)
+			(at 135.89 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1772,7 +1772,7 @@
 	)
 	(global_label "X2"
 		(shape input)
-		(at 127 38.1 90)
+		(at 97.79 36.83 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1781,7 +1781,7 @@
 		)
 		(uuid "ad244022-8504-4b44-abac-656b0373dcac")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127 38.1 0)
+			(at 97.79 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1882,7 +1882,7 @@
 	)
 	(global_label "BC"
 		(shape input)
-		(at 161.29 38.1 90)
+		(at 135.89 36.83 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1891,7 +1891,7 @@
 		)
 		(uuid "d45e4ac9-9bd2-4333-ac88-c02bc1876f17")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.29 38.1 0)
+			(at 135.89 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2326,7 +2326,7 @@
 	)
 	(symbol
 		(lib_id "Device:Crystal_GND3")
-		(at 127 41.91 270)
+		(at 97.79 40.64 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2336,7 +2336,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060a0abaa")
 		(property "Reference" "Y1"
-			(at 132.08 40.64 90)
+			(at 102.87 39.37 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2346,7 +2346,7 @@
 			)
 		)
 		(property "Value" "32.768kHz 6pF"
-			(at 137.16 43.18 90)
+			(at 107.95 41.91 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2356,7 +2356,7 @@
 			)
 		)
 		(property "Footprint" "Crystal:Crystal_SMD_FrontierElectronics_FM206"
-			(at 127 41.91 0)
+			(at 97.79 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2367,7 +2367,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 41.91 0)
+			(at 97.79 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2378,7 +2378,7 @@
 			)
 		)
 		(property "Description" "Three pin crystal, GND on pin 3"
-			(at 127 30.988 90)
+			(at 97.79 29.718 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2407,7 +2407,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
-		(at 161.29 43.18 0)
+		(at 135.89 41.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2417,7 +2417,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060a1174e")
 		(property "Reference" "BT1"
-			(at 164.2872 40.7416 0)
+			(at 138.8872 39.4716 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2428,7 +2428,7 @@
 			)
 		)
 		(property "Value" "CR2032"
-			(at 164.2872 43.053 0)
+			(at 138.8872 41.783 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2439,7 +2439,7 @@
 			)
 		)
 		(property "Footprint" "Battery:BatteryHolder_MYOUNG_BS-07-A1BJ001_CR2032"
-			(at 161.29 41.656 90)
+			(at 135.89 40.386 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2450,7 +2450,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 161.29 41.656 90)
+			(at 135.89 40.386 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2461,7 +2461,7 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
-			(at 161.29 30.988 0)
+			(at 135.89 29.718 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2471,7 +2471,7 @@
 			)
 		)
 		(property "Sim.Device" "V"
-			(at 161.29 43.18 0)
+			(at 135.89 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2482,7 +2482,7 @@
 			)
 		)
 		(property "Sim.Type" "DC"
-			(at 161.29 43.18 0)
+			(at 135.89 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2493,7 +2493,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at 161.29 43.18 0)
+			(at 135.89 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
