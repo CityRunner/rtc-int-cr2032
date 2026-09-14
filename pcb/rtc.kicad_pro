@@ -246,7 +246,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "1a.2032.ssop.mot"
+      "sch_revision": "1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -494,7 +494,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "nwX287.kicad_pro",
+    "filename": "rtc.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -790,8 +790,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "nwX287.kicad_sch",
-        "name": "nwX287",
+        "filename": "rtc.kicad_sch",
+        "name": "rtc",
         "uuid": "60fa3dbc-3ba8-47cb-8b3e-8759fbedb443"
       }
     ],
@@ -801,7 +801,7 @@
   "sheets": [
     [
       "60fa3dbc-3ba8-47cb-8b3e-8759fbedb443",
-      "nwX287"
+      "rtc"
     ]
   ],
   "text_variables": {},
