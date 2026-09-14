@@ -11,11 +11,12 @@ For detailed information about the project, please refer to:
 - ScrapComputing's modified [version](https://github.com/scrapcomputing/nwX287.cr2032.ssop.mot) and [video](https://www.youtube.com/watch?v=k7J6g3XWbXA)
 
 ## Bill of Materials
-Gerber files are published in the releases: https://github.com/scrapcomputing/nwX287.cr2032.ssop.mot/releases
+Gerber files are published in the [releases](https://github.com/CityRunner/rtc-int-cr2032/releases)
 
 Part | # | Description
 -----|---|-----------------------------------------
-U1   | 1 | Real-Time Clock BQ3285S SSOP-24
-Y1   | 1 | Crystal oscillator 32.768kHz 6pF
-BT1  | 1 | CR2032 through-hole battery holder
+BT1  | 1 | CR2032 Battery Holder
+U1   | 1 | SSOP-24 Real-Time Clock BQ3285S 
+U2   | 1 | DIP-24 15.24mm Socket
+Y1   | 1 | Crystal Oscillator 32.768kHz 6pF
 
