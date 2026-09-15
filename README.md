@@ -1,22 +1,25 @@
-# Drop-in replacement for Odin RTC module
-![pcb](./images/pcb.png)
+# ODIN RTC Replacement
 
-This is a modified version of Necroware/ScrapComputing nwX287 RTC module with the following features:
-- It uses a common through-hole CR2032 battery holder instead of a CR1225
-- It works with an BQ3285 SSOP-24 RTC IC
-- It is locked in Intel mode
+Drop-in CR2032 replacement for the ODIN OEC12C887 RTC module.
 
-For detailed information about the project, please refer to:
-- Necroware's original [project](https://github.com/necroware/nwX287) and [video](https://www.youtube.com/watch?v=svPNxILeQEw)
-- ScrapComputing's modified [version](https://github.com/scrapcomputing/nwX287.cr2032.ssop.mot) and [video](https://www.youtube.com/watch?v=k7J6g3XWbXA)
+[pcb](./images/pcb.png)
 
-## Bill of Materials
-Gerber files are published in the [releases](https://github.com/CityRunner/rtc-int-cr2032/releases)
+- BQ3285S SSOP-24
+- Replaceable CR2032
+- DIP-24 socket
+- Intel bus mode
+- 32.768 kHz crystal
 
-Part | # | Description
------|---|-----------------------------------------
-BT1  | 1 | CR2032 Battery Holder
-U1   | 1 | SSOP-24 Real-Time Clock BQ3285S 
-U2   | 1 | DIP-24 15.24mm Socket
-Y1   | 1 | Crystal Oscillator 32.768kHz 6pF
+Based on [Necroware/nwX287](https://github.com/necroware/nwX287) and [ScrapComputing/nwX287.cr2032.ssop.mot](https://github.com/scrapcomputing/nwX287.cr2032.ssop.mot).
 
+# BOM
+
+Ref.| Description
+U1| BQ3285S SSOP-24
+U2| DIP-24 socket
+Y1| 32.768 kHz crystal
+BT1| CR2032 holder
+
+Use a non-rechargeable CR2032.
+
+See the KiCad files for the schematic and PCB.
