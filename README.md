@@ -2,7 +2,7 @@
 
 Drop-in CR2032 replacement for the ODIN OEC12C887 RTC module.
 
-[pcb](./images/pcb.png)
+![pcb](./images/pcb.png)
 
 - BQ3285S SSOP-24
 - Replaceable CR2032
@@ -14,11 +14,12 @@ Based on [Necroware/nwX287](https://github.com/necroware/nwX287) and [ScrapCompu
 
 # BOM
 
-Ref.| Description
-U1| BQ3285S SSOP-24
-U2| DIP-24 socket
-Y1| 32.768 kHz crystal
-BT1| CR2032 holder
+| Ref. | Description |
+| --- | --- |
+| BT1 | CR2032 holder |
+| U1 | BQ3285S SSOP-24 |
+| U2 | DIP-24 socket |
+| Y1 | 32.768 kHz crystal |
 
 Use a non-rechargeable CR2032.
 
